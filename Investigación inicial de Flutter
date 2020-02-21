@@ -1,0 +1,36 @@
+
+Flutter.
+
+Se trata de un Kit de Desarrollo de Software (SDK, por sus siglas en inglés) de código abierto para la creación de aplicaciones móviles formado por Google LLC. Flutter es capaz de desarrollar interfaces de usuario para aplicaciones en sistemas operativos tales como Android, iOS, y basado en Web
+
+A.	Principales ventajas de Flutter.-
+
+Desarrollo rápido.- Flutter incorpora varia cantidad de Widgets (Soluciones pre-construidas de la interfaz) que facilita la creación de interfaces de una forma mucho más rápida, en lugar de escribirla desde cero. Además, tiene la gran ventaja de ver los cambios más recientes sin necesidad de recompilar el código.
+Rendimiento nativo multiplataforma.- Los widgets añaden las personalizaciones para iOS y Android como navegación, scrolling, iconos, fuentes etc. Las peculiaridades de cada sistema no son una gran limitante,  ya que Flutter lo hace automáticamente. Además compila a código nativo del procesador ofreciendo la mejor experiencia a los usuarios. (Guerrero, 2019)
+Código abierto.- Flutter tiene la gran ventaja de ser de código abierto y utilizado por desarrolladores y organizaciones de todo el mundo. El código abierto tiene una serie de requisitos necesarios, siendo quizás el más importante es que el software debe poder ser regalado o vendido libremente, por lo tanto, Flutter es totalmente gratis. (opensource.org, 2007)
+Mejores interfaces de usuario.- Los widgets incorporados en Material Design y Cupertino(iOS-flavor) de Flutter, enriquece APIs de movimiento, suave scroll natural, y conocimiento de la plataforma.
+Framework reactivo.- Flutter incorpora un marco de trabajo reactivo con un amplio conjunto de widgets, de plataforma, de layout y básicos. La interfaz de usuario puede ser diseñada de mucho mejor forma con flexibles APIs para 2D, animación, gestos, efectos y más.
+Reutilización de APIs y SDKs nativos.- Este SDK es capaz de reutilizar código existente en Java, Swift y Objective C y acceder a funcionalidades nativas y SDKs en iOS y Android.
+
+B.	Lenguaje de programación que se utiliza para desarrollar en Flutter.-
+
+Para poder desarrollar con Flutter debe usarse el lenguaje de programación “Dart”.
+Dart es un lenguaje de programación orientado a objetos de código abierto, desarrollado por Google y enfocado en la programación web. Influido por	 C#, Javascript, Java, y CoffeScript (Luján, 2017)
+
+C.	Alternativas en el mercado.-
+
+React Native.- Usa JavaScript, utilizando la arquitectura Flux de Facebook en lugar de Skia de Google. Tiene mucho mayor documentación que Flutter. (platzi, 2019)
+Native Script.- Framework que permite crear aplicaciones para iOS y Android haciendo uso de Angular, TypeScript o JavaScript. (aulaformativa.com, 2016)
+Sencha Touch.- Antiguo marco de trabajo posee más de 50 componentes y temas para sistemas operativos como iOS, Android, Blackberry y Windows Phone. Posee también widgets para interfaz que han sido diseñados específicamente para dispositivos móviles. La aplicación es de pago que posee un periodo de prueba de 30 días.
+Kendo UI.- permite crear aplicaciones híbridas con HTML5, CSS y JavaScript. Puede ser usado por un periodo de prueba gratuito.
+PhoneGap.- Creado por Adobe, es otro framework de código abierto que te permite crear aplicaciones híbridas haciendo uso de los lenguajes HTML, CSS y JavaScript. 
+Lungo.- framework ligerao en la que puedes hacer uso de HTML5, CSS3 y JavaScript para crear aplicaciones compatibles en iOS, Android, Blackberry y Firefox OS. Se puede descargar y usar gratuitamente, pero impide la creación de aplicaciones con fines comerciales, al menos que se adquiera una licencia.
+
+Bibliografía
+
+aulaformativa.com. (16 de Septiembre de 2016). Obtenido de https://blog.aulaformativa.com: https://blog.aulaformativa.com/framework-moviles-crear-aplicaciones-uso-html-css-javascript/
+Guerrero, G. (08 de Enero de 2019). Obtenido de https://programaenlinea.net/: https://programaenlinea.net/flutter-desarrollo-movil/
+Luján, J. D. (03 de Agosto de 2017). Obtenido de https://ed.team/: https://ed.team/blog/dart-un-lenguaje-del-futuro
+opensource.org. (22 de Marzo de 2007). Obtenido de https://opensource.org/: https://opensource.org/docs/osd
+platzi. (Mayo de 2019). Obtenido de https://platzi.com: https://platzi.com/blog/flutter-vs-react-native/
+
