@@ -1,0 +1,46 @@
+import 'package:flutter/material.dart';
+
+void main() => runApp(MyApp());
+
+class MyApp extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      home: Scaffold(
+        appBar: AppBar(
+          title: Text("Image from Network"),
+        ),
+            body: ListView(
+              children: <Widget>[
+                // Load image from network
+                Image.network(
+                    'https://github.com/nisrulz/flutter-examples/raw/develop/image_from_network/img/flutter_logo.png'),
+                // even loads gifs
+                // Gif image from Giphy, all copyrights are owned by Giphy
+                Image.network(
+                    'https://github.com/nisrulz/flutter-examples/raw/develop/image_from_network/img/loop_anim.gif'),
+                Image.network(
+                    'https://steemitimages.com/p/qjrE4yyfw5pEPvDbJDzhdNXM7mjt1tbr2kM3X28F6SraZgr8bz5HByzTNL5pLpWQVo7vxp4KPLQNmheeupQCFdZWNxLrTFKmaHJmxcbWnSZ7My1krKCgUJRC?format=match&mode=fit'),
+                Image.network(
+                    'https://medieval.top/wp-content/uploads/2019/10/arquitectura-gotica.jpg'),
+                Image.network(
+                    'https://www.eluniverso.com/sites/default/files/styles/powgallery_1024/public/fotos/2019/04/16792652.jpg?itok=d4QIrvPA'),
+                Image.network(
+                    'https://previews.123rf.com/images/tonobalaguer/tonobalaguer1703/tonobalaguer170300397/73848414-catedral-de-notre-dame-en-par%C3%ADs-francia-arquitectura-g%C3%B3tica-francesa.jpg'),
+                Image.network(
+                    'https://thumbs.dreamstime.com/z/techo-de-oro-de-la-bas%C3%ADlica-de-san-pedro-58644616.jpg'),
+                Image.network(
+                    'https://glocal.mx/wp-content/uploads/2019/04/notre-dame.jpg'),
+                Image.network(
+                    'https://espacio.co.cr/wp-content/uploads/2017/08/i6.jpg'),
+                Image.network(
+                    'https://4.bp.blogspot.com/-rodYuK_5b9I/UO1af_XR4wI/AAAAAAAAPPQ/gpQtruMifhs/s1600/m.s.m..jpg'),
+                Image.network(
+                    'https://2.bp.blogspot.com/_Rzc6yRWqyDM/S9SPpOUzweI/AAAAAAAAAO8/VCAEsOGV408/s1600/Burgos_Cathedral.jpg'),
+                Image.network(
+                    'https://sites.google.com/site/obrasdestacadas/_/rsrc/1472878365417/la-basilica-de-san-pedro-del-vaticano/basilica-san-pedro-16.jpg'),
+              ],
+            ),),
+      );
+  }
+}
